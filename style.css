@@ -1,0 +1,141 @@
+@charset "UTF-8" ; 
+
+.attribution { font-size: 8px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'font1';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root{
+    --cor1:black;
+    --cor2:rgba(85, 85, 85, 0.644);
+    --cor3:rgb(59, 59, 59);
+    --cor4:rgb(159, 202, 59);
+}
+
+@media screen and (min-width:600px) and (max-width:768) {
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992) {
+    
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    width:auto;
+    height:auto;
+    display: block;
+}
+
+header {
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 830px;
+    background-color: var(--cor3);
+    border-radius: 15px;
+}
+
+#artigo > h2{
+    color: white;
+}
+
+#artigo > h3{
+    color: var(--cor4);
+}
+
+#foto{ /*foto da Jessica Randall*/
+    border-radius:60%;
+    padding:30px;
+
+}
+
+.git{ /* box git*/
+    background-color:var(--cor2);
+    margin: 20px;
+    height: 50px;
+    width: 100%vw;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+
+.front{ /* box front-end mentor*/
+    background-color:var(--cor2);
+    margin: 20px;
+    height: 50px;
+    width: 100%vw;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.link{ /* box linkedin*/
+    background-color:var(--cor2);
+    margin: 20px;
+    height: 50px;
+    width: 100%vw;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.twit{ /* box twitter*/
+    background-color:var(--cor2);
+    margin: 20px;
+    height: 50px;
+    width: 100%vw;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.insta{ /* box instagram*/
+    background-color:var(--cor2);
+    margin: 20px;
+    height: 50px;
+    width: 100%vw;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+a{  
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 10px;
+    color: white;
+
+}
+
+.footer > a {
+    text-decoration: underline;
+    color:white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
